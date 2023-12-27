@@ -2,9 +2,9 @@ FROM node:18
 
 WORKDIR /app
 
-RUN npm i
-
 COPY . .
+
+RUN npm i
 
 EXPOSE 8001
 
